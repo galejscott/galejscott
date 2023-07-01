@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+This is my website to demonstrate a few things I've learnt along the way to becoming a web developer
 <!--
 **galejscott/galejscott** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
