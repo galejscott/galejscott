@@ -436,6 +436,12 @@
   .portfolios .portfolio-item .hover-items h3 {
     font-size: 1.5rem;
     color: var(--color-white);
+    margin-bottom: 0.8rem;
+  }
+  .portfolios .portfolio-item .hover-items h5 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--color-grey-5);
     margin-bottom: 1.5rem;
   }
   .portfolios .portfolio-item .hover-items .icons {
