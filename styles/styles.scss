@@ -8,6 +8,7 @@
 :root {
     --color-primary: #191d2b;
     --color-secondary: #27AE60;
+    --color-tertiary: #;
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -24,6 +25,7 @@
 .light-mode {
     --color-primary: #FFFFFF;
     --color-secondary: #F56692;
+    --color-tertiary: #;
     --color-white: #454e56;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -154,7 +156,7 @@ section {
         position: relative;
         .h-shape {
             transition: all .4s ease-in-out;
-            width: 65%;
+            width: 60%;
             height: 100%;
             background-color: var(--color-secondary);
             position: absolute;
@@ -162,6 +164,18 @@ section {
             top: 0;
             z-index: -1;
             clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+        }
+        .h-shape-accent {
+            transition: all .4s ease-in-out;
+            width: 65%;
+            height: 100%;
+            background-color: var(--color-tertiary);
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+
         }
         .image {
             border-radius: var(--br-sm-2);

@@ -8,7 +8,8 @@
   :root {
     --color-primary: #191d2b;
     --color-secondary: #27AE60;
-    --color-white: #FFFFFF;
+    --color-tertiary: #F56692;
+    --color-white: #f8f8f8;
     --color-black: #000;
     --color-grey0: #f8f8f8;
     --color-grey-1: #dbe1e8;
@@ -22,8 +23,9 @@
   }
   
   .light-mode {
-    --color-primary: #FFFFFF;
-    --color-secondary: #F56692;
+    --color-primary: #f8f8f8;
+    --color-secondary: #EA9111;
+    --color-tertiary: #116AEA;
     --color-white: #454e56;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -168,6 +170,17 @@
     left: 0;
     top: 0;
     z-index: -1;
+    clip-path: polygon(0 0, 42% 0, 75% 100%, 0% 100%);
+  }
+  .header-content .left-header .h-shape-accent {
+    transition: all 0.4s ease-in-out;
+    width: 65%;
+    height: 100%;
+    background-color: var(--color-tertiary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
     clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
   }
   .header-content .left-header .image {
@@ -304,7 +317,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    background-color: var(--color-secondary);
+    background-color: var(--color-tertiary);
     transition: all 0.4s ease-in-out;
     width: 60%;
   }
@@ -774,7 +787,7 @@
       padding-bottom: 6rem;
     }
   
-    .left-header .h-shape {
+    .left-header .h-shape, .h-shape-accent{
       display: none;
     }
   
@@ -978,7 +991,7 @@
       padding-bottom: 6rem;
     }
   
-    .left-header .h-shape {
+    .left-header .h-shape, .h-shape-accent {
       display: none;
     }
     .left-header .image {
