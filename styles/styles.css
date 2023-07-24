@@ -127,7 +127,7 @@
     transition: all 0.4s ease-in-out;
   }
   .controls .control:hover i {
-    color: var(--color-secondary);
+    color: var(--color-tertiary);
   }
   
   .theme-btn {
