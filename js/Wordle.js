@@ -3,9 +3,9 @@ const tileDisplay = document.querySelector('.tile-container');
 const keyboard = document.querySelector('.key-container');
 const messageDisplay = document.querySelector('.message-container');
 
-let wordle = 'HIRED'
+let wordle
 
-/*
+
 const getWordle = () => {
     fetch('http://localhost:3000/word')
         .then(response => response.json())
@@ -17,7 +17,7 @@ const getWordle = () => {
 };
 
 getWordle();
-*/
+
 
 const keys = [
     'Q',
