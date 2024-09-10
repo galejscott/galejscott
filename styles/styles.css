@@ -342,8 +342,8 @@
   .about-stats .progress-bars .progress-bar .progress-con .progress .js {
     width: 70%;
   }
-  .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-    width: 25%;
+  .about-stats .progress-bars .progress-bar .progress-con .progress .seo {
+    width: 80%;
   }
   .about-stats .progress-bars .progress-bar .progress-con .progress .ruby {
     width: 50%;
@@ -667,7 +667,7 @@
     overflow: hidden;
   }
   .submit-btn .btn-text {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
     font-size: 1.3em;
   }
   .submit-btn .btn-icon {
@@ -727,7 +727,7 @@
     overflow: hidden;
   }
   .main-btn .btn-text {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
   .main-btn .btn-icon {
     background-color: var(--color-secondary);
@@ -920,10 +920,6 @@
     }
     .main-title h2 .bg-text {
       font-size: 2.3rem;
-    }
-
-    .main-btn .btn-text {
-      padding: 0 1rem;
     }
   }
   @media screen and (max-width: 1432px) {
