@@ -289,7 +289,7 @@
     padding: 1rem;
     color: var(--color-grey-1);
   }
-  .about-container .left-about h4 {
+  .about-container .left-about h3 {
     font-size: 2rem;
     text-transform: uppercase;
   }
@@ -563,7 +563,7 @@
   .contact-content-con .left-contact {
     flex: 2;
   }
-  .contact-content-con .left-contact h4 {
+  .contact-content-con .left-contact h3 {
     margin-top: 1rem;
     font-size: 2rem;
     text-transform: uppercase;
