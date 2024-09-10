@@ -859,6 +859,7 @@
   
     .container {
       padding: 2rem 2.5rem !important;
+      width: 100% !important;
     }
   
     .about-stats .progress-bars {
@@ -904,12 +905,18 @@
     .contact-item p {
       font-size: 15px;
       color: var(--color-grey-2);
+      text-align: center;
     }
     .contact-item span {
       font-size: 15px;
     }
     .contact-item .icon {
       grid-template-columns: 25px 1fr;
+    }
+
+    .contact-content-con .left-contact .contact-icon {
+      align-items: center;
+      justify-content: space-around;
     }
   
     .main-title h2 {
@@ -925,7 +932,7 @@
   @media screen and (max-width: 1432px) {
     .container {
       padding: 7rem 11rem;
-      width: 80% !important;
+      width: 80%;
       margin: 0 auto;
     }
   
@@ -1069,4 +1076,5 @@
     .main-title h2 .bg-text {
       font-size: 4rem;
     }
+
   }
